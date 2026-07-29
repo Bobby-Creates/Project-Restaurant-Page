@@ -14,7 +14,7 @@ let bDrink = new Image()
 bDrink.src = food3
 let tea = new Image()
 tea.src = food4
-
+ 
 let create = document.createElement("div")
  let border = document.createElement("h1")
  let items = document.createElement("div")

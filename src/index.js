@@ -19,7 +19,7 @@ content.appendChild(text);
 text.classList.add("text")
 text.appendChild(intro);
 
-
+ 
 
 intro.textContent="Welcome to Cosmic Cafe, We have so much for you to do and enjoy, come taste the best food in the galaxy!"
 

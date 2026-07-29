@@ -1,0 +1,89 @@
+@font-face{
+    font-family: Cosmic;
+    src: url("./Jurij.ttf"),
+    url("./Jurij-Italic.ttf") ;
+}
+img:hover{
+    background-color: peachpuff;
+    gap:1rem;
+    border-radius: 1rem;
+}
+.items{
+    display:flex;
+    flex-flow: row wrap;
+   
+    gap: 2.5rem;
+}
+.phone{
+    font-size: 1rem;
+}
+
+.form{
+    display:flex;
+    background-color:rgb(243, 65, 243);
+    padding: 2rem;
+    grid-row: 2 /span 2;
+    grid-column: 2/ span 4;
+    border: 0.5rem solid rebeccapurple;
+    flex-flow: row wrap;
+    gap:1rem;
+    border-radius: 1rem;
+    
+}
+.stuff {
+    grid-column: 2/ span 4;
+    grid-row:2/span 2;
+    background-color:plum;
+    padding: 2rem;
+    border: 0.5rem solid rebeccapurple;
+    
+}
+button{
+    background-color: rebeccapurple;
+   background-image: url(./Idle.png);
+   border: 2px solid;
+   border-radius: 2rem;
+}
+
+body{ 
+    background-color:#681993;
+    background-image: url(./aldebaran-s-qtRF_RxCAo0-unsplash.jpg);
+   
+   
+}
+
+#content{
+display:grid;
+grid-template-columns: repeat(12, minmax(200px, 1fr));
+grid-template-rows: repeat(6, 300px);
+
+width:100vw;
+height:100vh;
+}
+img {
+  width: 8vw;
+  height:auto;
+}
+
+
+.text{
+    grid-column: 2/ span 4;
+    grid-row: 2/span 3;
+    border: 1rem solid mediumslateblue;
+    
+    
+     font-family: Cosmic, sans-serif;
+    background-color:skyblue;
+}
+#content > div >div {
+    font-size: 2rem;
+}
+
+
+
+#content > h1{
+    grid-column: 2/ span 4;
+    font-size: 5rem;
+     font-family: Cosmic, sans-serif;
+    color: white
+}
